@@ -1,0 +1,67 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* task-1 */
+/* 
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#clock{
+  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.container{
+    width: 800px;
+    height: 180px;
+    margin-top: 80px;
+} */
+
+
+/* task-2 */
+
+
+
+/* body{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    height: 500px;    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 80px;
+}
+
+.input{
+    width: 300px;
+    font-size: large;
+    padding: 10px 10px ;
+    border: 1px solid rgb(62, 61, 61);
+    border-radius: 8px;
+}
+
+.button{
+    width: 90px;
+    padding: 5px 20px;
+    border: 1px solid green;
+    border-radius: 8px;
+    background-color: white;
+} */
