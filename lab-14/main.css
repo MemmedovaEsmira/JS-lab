@@ -58,7 +58,7 @@ body{
     border-radius: 8px;
 }
 
-.button{
+#button{
     width: 90px;
     padding: 5px 20px;
     border: 1px solid green;

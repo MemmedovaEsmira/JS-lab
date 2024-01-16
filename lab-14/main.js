@@ -34,22 +34,27 @@
 // task-2
 
 
-// let btn = document.getElementById("button");
-// let output = document.getElementById("outputtext");
-// let guessedinfo = document.getElementById("guessedOfNo");
+// let randomNum = Math.floor(Math.random() * 100) + 1;
+// let attempts = 0;
 
-// let number = [Math.floor(Math.random() *100)]
-// let guessedOfNo = 0
+// const guessField = document.getElementById("guessField");
+// const button = document.getElementById("button");
+// const hint = document.getElementById("hint");
+// const attemptsText = document.getElementById("attempts");
 
-// button.addEventListener("click",function(){
-//     let input = document.getElementById("guessField").value;
-//     if(input == number){
-//         output.innerHTML = `You guessed right, your number was ${number}` 
-//     }
-//     else if ( input < number){
-//         output.innerHTML = "You guessed too low!"
-//     };
-//     if ( input > number){
-//         output.innerHTML = "You guessed too high!"
-//     }
-// });
+// button.addEventListener("click", checkGuess);
+
+// function checkGuess() {
+//   const userValue = Number(guessField.value);
+//   attempts++;
+
+//   if (userValue === randomNum) {
+//     hint.textContent = "Congratulations, you guessed it!";
+//   } else if (userValue < randomNum) {
+//     hint.textContent = "You guessed too low!";
+//   } else {
+//     hint.textContent = "You guessed too high!";
+//   }
+
+//   attemptsText.textContent = "Attempts: " + attempts;
+// }
